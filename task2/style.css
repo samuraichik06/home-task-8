@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    border: 5px solid gray;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    overflow-y: scroll;
+}
+.sidebar{
+    height: 350px;
+    width: 150px;
+    background-color: aqua;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 10px;
+    position: sticky;
+    top: 10px;
+}
+.content{
+    padding: 10px;
+    font-weight: bolder;
+}
